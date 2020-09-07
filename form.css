@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #7c070748;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+   }
+
+form {
+    padding: 20px;
+}
+
+label[for="male"], label[for="female"]{
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 26px;
+    
+}
+   .topnav {
+    display: flex;
+    background-color: rgb(20, 51, 82);
+}
+   .topnav a {
+        color: rgba(77, 114, 156, 0.952);
+   } 
+   .topnav ul {
+    list-style-type: none;
+}
+   .topnav li {
+    float: left;
+    padding: 20px;
+  
+  }
+input[type="radio"]{
+   opacity:0;
+   width: 0;
+   margin: 0;
+}
+
+  footer
+  {
+     text-align: center;
+     padding: 3px;
+     background-color: slategray;
+     color: white;
+  }
